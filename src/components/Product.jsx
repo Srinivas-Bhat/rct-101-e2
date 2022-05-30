@@ -1,4 +1,17 @@
 import React from "react";
+import { Image } from '@chakra-ui/react'
+import { Text } from '@chakra-ui/react'
+import { Heading } from '@chakra-ui/react'
+import { Stack, HStack, VStack } from '@chakra-ui/react'
+import { Box } from '@chakra-ui/react'
+import {
+  Tag,
+  TagLabel,
+  TagLeftIcon,
+  TagRightIcon,
+  TagCloseButton,
+} from '@chakra-ui/react'
+
 
 const Product = ({key, title, category, gender, imageSrc, price, el}) => {
   console.log(title);
